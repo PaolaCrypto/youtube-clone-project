@@ -34,6 +34,10 @@ main {
     display: none;
   }
 }
+
+.material-icons {
+  display: block;
+}
 .left {
   display: flex;
   align-items: center;
@@ -49,31 +53,4 @@ main {
   display: flex;
   border: 1px solid #ddd;
   height: 45px;
-}
-.search input {
-  width: 600px;
-  padding: 10px;
-  border: 0;
-  height: 100%;
-  border-radius: 2px 0 0 2px;
-}
-input:focus {
-  outline: none;
-  border: 1px solid #ddd;
-}
-
-.search button {
-  height: 100%;
-  width: 60px;
-  border: none;
-}
-
-.mic {
-  margin-top: 10px;
-}
-
-.material-icons {
-  color: rgb(100, 100, 100);
-  padding: 0 7px;
-  cursor: pointer;
 }
